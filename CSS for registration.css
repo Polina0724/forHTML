@@ -1,0 +1,11 @@
+.registration {
+    border: 2px dotted darkblue;
+    width: 200px;
+    padding: 20px;
+    margin-right: 300px;
+    background-color: rgb(161, 225, 226);
+}
+
+
+
+img:hover {transform: scale(2.5);}
