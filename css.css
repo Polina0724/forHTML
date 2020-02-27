@@ -1,0 +1,33 @@
+h2 {color: coral;}
+
+h3 {
+    color: rgb(22, 233, 22);
+}
+
+/* Creating class to be linked to object */
+.card {
+    border: 2px solid darkblue;
+    padding: 20px;
+    margin-right: 300px;
+    background-image:
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_UZE3hQsQ5Ym_Ca4sEKbnreFEDWKnEGN999ZKaH2Uy8m1EKKi');
+}
+
+/* Linking to object through it's id */
+#unorderedlist {
+    color: hotpink;
+    border: 1px solid black;
+}
+
+ /* Multiple selectors */
+ #text, #table {background: darkcyan;
+padding: 10px;
+margin-bottom: 5px; font-style: italic;}
+
+/* Style to the section inside another block  */
+#text span {color: darkmagenta; font-style: bold; }
+
+body {font-family: "Roboto";
+font-size: 16px;
+line-height: 1.6em;
+font-weight: bold;}

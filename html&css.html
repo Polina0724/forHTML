@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA_Compatible" content="ie=edge">
+    <meta name="description" content="Truth about DMT">
+    <meta name="keywords" content="DMT, psychedelic">
+
+    <!--Do not show website in the serch engines -->
+    <meta name="robots" content="NO INDEX, NO FOLLOW">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>DMT</title>
+
+    <!-- Internal css -->
+    <style>
+        /* Creating style to all similar elements*/
+        /* h3 {
+            color: rgb(22, 233, 22);
+        }
+
+        /* Creating class to be linked to object */
+        /* .card {
+            border: 2px solid darkblue;
+            padding: 20px;
+            margin-right: 300px;
+            background-image:
+            url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_UZE3hQsQ5Ym_Ca4sEKbnreFEDWKnEGN999ZKaH2Uy8m1EKKi');
+        } */
+
+        /* Linking to object through it's id */
+        /* #unorderedlist {
+            color: hotpink;
+            border: 1px solid black;
+        } */
+
+         /* Multiple selectors */
+         /* #text, #table {background: darkcyan;
+        padding: 10px;
+        margin-bottom: 5px;} */
+
+        /* Style to the section inside another block  */
+        /* #text span {color: darkmagenta; font-style: bold; } */
+
+        /* body {font-family: "Roboto";
+        font-size: 16px;
+        line-height: 1.6em;}  */
+
+    </style>
+
+    <!-- External css -->
+    <link rel="stylesheet" href="/css.css">
+</head>
+
+<body>
+
+    <!-- Headers -->
+    <h1 id="maintitle">DMT</h1>
+    <h2>Spiritual molecule</h2>
+    <h3>The way to find your path to being conscious</h3>
+
+    <!-- Paragraph with string and italic text-->
+    <p id="text"> <strong>DMT (N,N-Dimethyltryptamine) </strong> is a hallucinogenic tryptamine drug
+        that <span>occurs naturally in many plants and animals.</span>
+
+        <!--New line in the existing  paragraph -->
+        <br> It is also referred to as the
+        <em>“spirit molecule”</em> due to the intense psychedelic experience</p>
+
+    <!--Adding Line -->
+    <hr>
+
+    <!--Adding External link and open it in the separate page -->
+    <a href="https://www.medicalnewstoday.com/articles/306889" target="_blank">Click for more information</a>
+
+    <!-- Adding internal link -->
+    <br>
+    <a href="/fonts/3966.ttf">Fonts</a>
+
+    <!-- Local image -->
+    <br>
+    <img src="/image/DMT-drug.jpg" alt="DMT" width=600px>
+
+    <!-- Lists unordered -->
+    <ul id="unorderedlist">
+        <li>DMT vs. ayahuasca</li>
+        <li>Presence in brain</li>
+        <li>Methods</li>
+        <li>Onset</li>
+        <li>Duration</li>
+    </ul>
+
+    <!-- Lists ordered -->
+    <ol type="a" class="card">
+        <li>Side effects</li>
+        <li>Risks</li>
+        <ul>
+            <li>Tolerance</li>
+            <li>Takeaway</li>
+            <li>Harm reduction</li>
+        </ul>
+        <li>Interactions</li>
+        <li>Addiction</li>
+    </ol>
+
+    <!-- Tables -->
+    <table id="table">
+        <thead>
+            <h3>Table</h3>
+            <tr>
+                <th>Strength in numbers</th>
+                <th>Find a buddy</th>
+                <th>Consider your surroundings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Don’t use DMT alone. Do it in the company of people you trust</td>
+                <td>Make sure you have at least one sober person around who can intervene if things take a turn</td>
+                <td>Be sure to use it in a safe and comfortable place.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form and input -->
+    <br>
+    <hr>
+    <h3>Contact form</h3>
+    <form action="process.php"></form>
+
+    <!-- Text entry -->
+    <div>
+        <label for="doyouwanttotry">do you want to try</label>
+        <br>
+        <input type="text" value="55565">
+    </div>
+    <div>
+        <label for="entermane">enter your name</label>
+        <br>
+        <input type="text">
+    </div>
+    <div>
+        <label for="enteremaile">enter your email</label>
+        <br>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="password">enter your password</label>
+        <br>
+        <input type="password" name="password" id="password">
+    </div>
+    <!-- Select -->
+    <div>
+        <label for="sex">sex</label>
+        <br>
+        <select name="sex" id="sex">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <!-- Inputs with number values-->
+    <div>
+        <label for="age">age</label>
+        <br>
+        <input type="number" name="age" id="age">
+    </div>
+    <!-- Inputs with date-->
+    <div>
+        <label for="date">date</label>
+        <br>
+        <input type="date" name="date" id="date">
+    </div>
+    <!-- Message area -->
+    <div>
+        <label for="entermessage">enter your message</label>
+        <br>
+        <textarea name="message" id="message" cols="25" rows="5"></textarea>
+    </div>
+
+
+</body>
+
+</html>
